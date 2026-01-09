@@ -1,0 +1,13 @@
+# Design notes
+DESIGN_NOTES.md
+
+# Environment variables
+.env
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Index data (can be regenerated)
+index/
