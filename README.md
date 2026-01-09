@@ -53,7 +53,7 @@ support-kb-agent/
 ├── data/               # drop your docs here
 ├── index/              # where the faiss index lives
 ├── requirements.txt
-└── .env.example
+
 ```
 
 ## Some design notes
@@ -86,10 +86,3 @@ support@example.com with your order number to start a return.
 ---
 Sources: sample_policy.txt
 ```
-
-## What's next
-
-- [ ] Use actual embeddings when I get more API quota
-- [ ] Add a reranking step
-- [ ] Conversation memory so it remembers context
-- [ ] Better error handling (it's pretty rough right now)
