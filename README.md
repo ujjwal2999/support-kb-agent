@@ -7,6 +7,7 @@ A RAG-powered support agent I threw together using FAISS, LangGraph, and Gemini.
 Basically, I wanted to build a simple knowledge base agent that could answer support questions. Nothing crazy - just load some docs, chunk them up, index them, and let an LLM answer questions based on what's in there.
 
 Here's what it does:
+
 - Reads markdown and text files from a folder
 - Chunks them into bite-sized pieces and stores embeddings in FAISS
 - Uses LangGraph to handle the retrieve → generate flow
@@ -21,9 +22,7 @@ source venv/bin/activate  # or venv\Scripts\activate on windows
 # install deps
 pip install -r requirements.txt
 
-# set up your api key
-cp .env.example .env
-# then edit .env and add your GEMINI_API_KEY
+
 ```
 
 ## How to use it
@@ -80,8 +79,8 @@ Super minimal - just retrieve and generate nodes. Could add reranking or query r
 ```
 🔍 What is the refund policy?
 ============================================================
-Based on the knowledge base, refunds are processed within 5-7 
-business days after we receive your returned item. Reach out to 
+Based on the knowledge base, refunds are processed within 5-7
+business days after we receive your returned item. Reach out to
 support@example.com with your order number to start a return.
 
 ---
